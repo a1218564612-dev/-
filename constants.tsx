@@ -3,6 +3,7 @@ import { Tool, ToolCategory } from './types';
 
 export const TOOLS_DATA: Tool[] = [
   // AI Chat
+  { id: 'gemini', name: 'Google Gemini', description: 'Google 官方 AI，支持强大的多模态理解与实时搜索。', url: 'https://gemini.google.com', icon: 'fa-solid fa-sparkles', category: ToolCategory.AI_CHAT, tags: ['必备', '专业', '创意'], isHot: true },
   { id: 'deepseek', name: 'DeepSeek', description: '国产之光，推理能力极强，完全免费。', url: 'https://chat.deepseek.com', icon: 'fa-solid fa-brain', category: ToolCategory.AI_CHAT, tags: ['必备', '免费', '高效'], isHot: true },
   { id: 'kimi', name: 'Kimi', description: '超长上下文，擅长整理长文档和研报。', url: 'https://kimi.moonshot.cn', icon: 'fa-solid fa-moon', category: ToolCategory.AI_CHAT, tags: ['必备', '高效'] },
   { id: 'qwen', name: '通义千问', description: '阿里出品，全能型 AI 助手。', url: 'https://tongyi.aliyun.com', icon: 'fa-solid fa-cloud', category: ToolCategory.AI_CHAT, tags: ['高效', '专业'] },
